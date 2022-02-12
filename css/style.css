@@ -1,0 +1,40 @@
+body{
+    background-color: whitesmoke;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card{
+    background-color: ;
+    margin: 5em;
+    color: #063852;
+}
+
+.btn{
+    background-color: #063852;
+    /* color: whitesmoke; */
+}
+
+.page_accueil{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5em;
+}
+
+.niveaux ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.niveaux li{
+    background-color: white;
+    height: 30em;
+    margin: 5em;
+    justify-content: center;
+}
+
+a:link{
+    text-decoration: none;
+    color: #063852;
+}
+
