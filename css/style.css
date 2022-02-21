@@ -54,10 +54,13 @@ a:link{
     color: #020509;
 }
 
-/* couleur des liens du menu de nav */
+/* couleur des liens du menu de nav et du logo*/
+.logo:hover{
+    color: #020509;
+}
 .accueil:hover{
     background-color: #5271FF;
-    color: #020509;
+    color: #F5F5F5;
 }
 .maternelle:hover{
     color: #020509;
@@ -111,7 +114,7 @@ a:link{
     background-color: #FFCE38;
 }
 .bloc_cm2:hover{
-    color: #020509;
+    color: #F5F5F5;
     background-color: #5271FF;
 }
 
@@ -144,7 +147,11 @@ nav a:link{
 
 /* design du logo*/ 
 .logo{
-    color: #f5f5f5;
+    color: #020509;
+    background-color: #FFCE38;
+    width: 50%;
+    border-radius: 3em;
+    text-align: center;
 }
 
 .niveaux img{
@@ -169,3 +176,5 @@ footer > div{
     text-align: center;
 }
 
+/* Style du logo */
+.logo
