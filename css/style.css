@@ -129,6 +129,7 @@ nav ul{
 }
 /*blocs du menu de navigation*/
 nav li{
+    text-align: center;
     color: #f5f5f5;
     background-color: #433f75;
     width: 100%;
