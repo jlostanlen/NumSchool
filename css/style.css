@@ -88,7 +88,6 @@ body{
     background-color: #5271FF;
 }
 
-
 /* couleur des blocs de la page d'accueil lors du survol de la souris*/
 .bloc_maternelle:hover{
     color: #020509;
@@ -126,6 +125,7 @@ nav ul{
 }
 /*blocs du menu de navigation*/
 nav li{
+    text-align: center;
     color: #f5f5f5;
     background-color: #433f75;
     width: 100%;
