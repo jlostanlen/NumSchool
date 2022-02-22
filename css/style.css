@@ -121,14 +121,17 @@ a:link{
 
 nav{
     background-color: #433f75;
+    display: flex;
 }
 
 nav ul{
     width: 100%;
     height: 5em;
+
 }
 /*blocs du menu de navigation*/
 nav li{
+    top: auto;
     text-align: center;
     color: #f5f5f5;
     background-color: #433f75;
@@ -176,6 +179,3 @@ footer .contact{
 footer > div{
     text-align: center;
 }
-
-/* Style du logo */
-.logo
