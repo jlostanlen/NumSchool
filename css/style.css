@@ -1,0 +1,182 @@
+body{
+    background-color: #433f75;
+    font-family:sans-serif 'Courier New', Courier, monospace;
+}
+
+.page_accueil{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5em;
+}
+
+/* Image illustration page accueil */
+/* .illustration_accueil{
+    /* display: table-cell;
+    vertical-align: middle; */
+    /* font-size: 30px;
+    background-color: #f5f5f5;
+    width: 100%;
+} */ 
+
+/* .illustration_accueil h1{
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    font-size: 100px;
+}
+
+.illustration_accueil h2{
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+} */
+
+.niveaux ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.niveaux a{
+    box-shadow: -10px 10px #353264;
+    text-align: center;
+    background-color: white;
+    width: 20%;
+    height: 20em;
+    margin: 5em;
+    justify-content: center;
+}
+
+a:link{
+    text-decoration: none;
+    color: #020509;
+}
+
+/* couleur des liens du menu de nav et du logo*/
+.logo:hover{
+    color: #020509;
+}
+.accueil:hover{
+    background-color: #5271FF;
+    color: #F5F5F5;
+}
+.maternelle:hover{
+    color: #020509;
+    background-color: #FFCE38;
+}
+  .cp:hover{
+    color: #f5f5f5;
+    background-color: #5271FF;
+}
+  .ce1:hover{
+    color: #020509;
+    background-color: #FF0038;
+}
+  .ce2:hover{
+    color: #020509;
+    background-color: #FFCE38;
+}
+  .cm1:hover{
+    color: #f5f5f5;
+    background-color: #FF0038;
+}
+  .cm2:hover{
+    color: #020509;
+    background-color: #FFCE38;
+}
+  .a_propos:hover{
+    color: #f5f5f5;
+    background-color: #5271FF;
+}
+
+
+/* couleur des blocs de la page d'accueil lors du survol de la souris*/
+.bloc_maternelle:hover{
+    color: #020509;
+    background-color: #FFCE38;
+}
+.bloc_cp:hover{
+    color: #f5f5f5;
+    background-color: #FF0038;
+}
+.bloc_ce1:hover{
+    color: #f5f5f5;
+    background-color: #5271FF;
+}
+.bloc_ce2:hover{
+    color: #f5f5f5;
+    background-color: #FF0038;
+}
+.bloc_cm1:hover{
+    color: #020509;
+    background-color: #FFCE38;
+}
+.bloc_cm2:hover{
+    color: #F5F5F5;
+    background-color: #5271FF;
+}
+
+
+nav{
+    background-color: #433f75;
+    display: flex;
+}
+
+nav ul{
+    width: 100%;
+    height: 5em;
+
+}
+/*blocs du menu de navigation*/
+nav li{
+    margin-top: auto;
+    justify-content: center;
+    text-align: center;
+    color: #f5f5f5;
+    background-color: #433f75;
+    width: 100%;
+    /* margin-right: 1em;
+    margin-left: 5em; */
+}
+
+nav a{
+    height: 100%;
+}
+
+nav a:link{
+    color: #f5f5f5;
+    text-decoration: none;
+}
+
+/* design du logo*/ 
+.logo{
+    color: #020509;
+    background-color: #FFCE38;
+    width: 50%;
+    border-radius: 3em;
+    text-align: center;
+}
+
+.niveaux img{
+    width: 25%;
+}
+
+/* Footer */
+footer{
+    display: flex;
+    margin-top: 10em;
+}
+footer > div{
+    background-color: #f5f5f5;
+    width: 100%;
+    padding: 1em;
+}
+footer .contact{
+    bottom:
+    margin-left: 0.3em;
+}
+footer > div{
+    text-align: center;
+}
