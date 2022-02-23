@@ -3,7 +3,11 @@
 
 
 @font-face {
+<<<<<<< HEAD
     font-family: '';
+=======
+    font-family: 'source_sans_problack';
+>>>>>>> accueil
     src: url('sourcesanspro-black-webfont.woff2') format('woff2'),
          url('sourcesanspro-black-webfont.woff') format('woff');
     font-weight: normal;
