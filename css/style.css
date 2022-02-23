@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-body{
-    letter-spacing: 0.2em;
-    /* background-color: #433f75; */
-    font-family:sans-serif 'Courier New', Courier, monospace;
-}
-
-=======
 @font-face {
     font-family: 'source_sans_pro';
     src: url('sourcesanspro-black-webfont.woff2') format('woff2'),
@@ -24,7 +16,6 @@ body{
 a{
     color: #020509;
 }
->>>>>>> accueil
 .page_accueil{
     display: flex;
     flex-wrap: wrap;
@@ -76,27 +67,18 @@ a:link{
     color: #020509;
 }
 .nav-link{
-<<<<<<< HEAD
-    color: #020509 !important;
-}
-
-=======
     color: #F5F5F5;
 }
 
 
 
->>>>>>> accueil
 /* couleur des liens du menu de nav */
 .accueil:hover{
     background-color: #5271FF;
     color: #020509;
 }
-<<<<<<< HEAD
-=======
 
 
->>>>>>> accueil
 .maternelle:hover{
     color: #020509;
     background-color: #FFCE38;
