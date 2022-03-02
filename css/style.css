@@ -226,9 +226,10 @@ nav a:link{
 .auteur{
     width: 40%;
     background-color: #55D2A4;
+    color: #020509;
 }
 .informations address > a{
-    color: #F5F5F5;
+    color: #020509;
 }
 
 
