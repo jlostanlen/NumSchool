@@ -8,15 +8,21 @@ BODY
     font-weight: normal;
     font-style: normal;
 }
-
+html{
+    height: 100%;
+}
 body{
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
     font-size: 1em;
     letter-spacing: 0.1em;
     background-color: #433f75;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 a{
-    color: #020509;
+    color: #F5F5F5;
 }
 
 
@@ -41,14 +47,13 @@ MENU DE NAVIGATION
 
 nav{
     position: fixed;
-    width: 90%;
+    width: 100%;
     top: 0px;
     background-color: #433f75;
 }
 nav ul{
     display: flex;
     list-style-type: none;
-    /* width: 100%; */
     height: 5em;
     align-items: center;
 }
@@ -84,7 +89,7 @@ nav a:link{
 
 /* couleur des liens du menu de nav lors du survol de la souris */
 .accueil:hover{
-    background-color: #5271FF;
+    background-color: #55D2A4;
     color: #020509;
 }
 .maternelle:hover{
@@ -92,11 +97,11 @@ nav a:link{
     background-color: #FFCE38;
 }
   .cp:hover{
-    color: #f5f5f5;
-    background-color: #5271FF;
+    color: #020509;
+    background-color: #55D2A4;
 }
   .ce1:hover{
-    color: #020509;
+    color: #F5F5F5;
     background-color: #FF0038;
 }
   .ce2:hover{
@@ -112,8 +117,8 @@ nav a:link{
     background-color: #FFCE38;
 }
   .a_propos:hover{
-    color: #f5f5f5;
-    background-color: #5271FF;
+    color: #020509;
+    background-color: #55D2A4;
 }
 
 
@@ -124,15 +129,15 @@ nav a:link{
 /* couleur des blocs de la page d'accueil et des pages des différentes catégories lors du survol de la souris*/
 .bloc1:hover{
     color: #020509;
-    background-color: #FFCE38;
-}
-.bloc2:hover{
-    color: #f5f5f5;
     background-color: #FF0038;
 }
+.bloc2:hover{
+    color: #020509;
+    background-color: #FFCE38;
+}
 .bloc3:hover{
-    color: #f5f5f5;
-    background-color: #5271FF;
+    color: #020509;
+    background-color: #F5F5F5;
 }
 .bloc4:hover{
     color: #f5f5f5;
@@ -144,11 +149,9 @@ nav a:link{
 }
 .bloc6:hover{
     color: #020509;
-    background-color: #5271FF;
+    background-color: #55D2A4;
 }
-.niveaux img{
-    width: 25%;
-}
+
 
 
 /* Aspect des blocs pour page d'accueil et pour les pages de chaque catégorie */
@@ -160,6 +163,7 @@ nav a:link{
     margin-top: 200px;
 }
 .niveaux a{
+    color: #020509;
     box-shadow: -10px 10px #353264;
     text-align: center;
     background-color: white;
@@ -194,8 +198,6 @@ nav a:link{
 À PROPOS
 *************************/
 .informations{
-    /* width: 100%; */
-    /* height: 100 ; */
     color: #F5F5F5;
     display: flex;
     justify-content: center;
@@ -205,6 +207,7 @@ nav a:link{
     display: flex;
     align-items: center;
     list-style-type: none;
+    margin-top: 200px;
 }
 .informations li{
     padding: 3em;
@@ -213,17 +216,16 @@ nav a:link{
     margin: 5em;
     text-align: center;
     justify-content: center;
+    border-radius: 5px;
 }
 .pq_site{
-    /* padding: 3em; */
     width: 40%;
     color: #020509;
     background-color: #FFCE38;
 }
 .auteur{
-    /* padding: 3em; */
     width: 40%;
-    background-color: #5271FF;
+    background-color: #55D2A4;
 }
 .informations address > a{
     color: #F5F5F5;
@@ -232,10 +234,42 @@ nav a:link{
 
 
 
+
+
+/**************************************************
+BLOCS POUR LES MATIERES ET POUR LES DIFFERENTS EXOS
+**************************************************/
+/* Aspect des blocs pour les différentes matières */
+.matieres ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 200px;
+    flex-direction: row;
+}
+.matieres a{
+    color: #020509;
+    box-shadow: -10px 10px #353264;
+    text-align: center;
+    background-color: #F5F5F5;
+    width: 20%;
+    height: 20em;
+    margin: 5em;
+    justify-content: center;
+    padding: 3em;
+    border-radius: 5px;
+}
+
+
+
 /*************************
 FOOTER
 *************************/
 footer{
+    color: #020509;
+    position: absolute;
+    bottom: 0;
     display: flex;
     margin-top: 10em;
     width: 100%;
