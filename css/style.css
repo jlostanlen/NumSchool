@@ -9,13 +9,22 @@ BODY
     font-weight: normal;
     font-style: normal;
 }
-body{
-    width: 100%;
+
+html, body {
+    min-height: 100vh; 
+}
+
+main{
     height: 100vh;
-    font-family: 'source_sans-pro', sans-serif;
-    letter-spacing: 0.2em;
+    width: 100%;
+}
+body{
+    /* margin: 0;
+    width: 100%;
+    height: 100%; */
+    font-size: 1em;
+    letter-spacing: 0.1em;
     background-color: #433f75;
-    font-family:sans-serif 'Courier New', Courier, monospace;
 }
 a{
     color: #020509;
@@ -30,6 +39,7 @@ a:link{
 .nav-link{
     color: #F5F5F5;
 }
+
 
 
 
@@ -110,10 +120,8 @@ nav p{
 
 
 
-/*************************
-PAGE D'ACCUEIL
-*************************/
-/* couleur des blocs de la page d'accueil lors du survol de la souris*/
+
+/* couleur des blocs de la page d'accueil et des pages des différentes catégories lors du survol de la souris*/
 .bloc1:hover{
     color: #020509;
     background-color: #FFCE38;
@@ -143,6 +151,7 @@ PAGE D'ACCUEIL
 }
 
 
+/* Aspect des blocs pour page d'accueil et pour les pages de chaque catégorie */
 .niveaux ul{
     list-style-type: none;
     display: flex;
@@ -157,6 +166,7 @@ PAGE D'ACCUEIL
     height: 20em;
     margin: 5em;
     justify-content: center;
+    padding: 3em;
 }
 
 
@@ -182,27 +192,39 @@ PAGE D'ACCUEIL
 À PROPOS
 *************************/
 .informations{
+    /* width: 100%; */
+    /* height: 100vh; */
+    color: #F5F5F5;
     display: flex;
     justify-content: center;
 }
 .informations > ul{
     flex-direction: column;
     display: flex;
-    justify-content: center;
+    align-items: center;
     list-style-type: none;
 }
 .informations li{
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
     margin: 5em;
     text-align: center;
     justify-content: center;
 }
 .pq_site{
+    /* padding: 3em; */
     width: 40%;
+    color: #020509;
     background-color: #FFCE38;
 }
 .auteur{
+    /* padding: 3em; */
     width: 40%;
     background-color: #5271FF;
+}
+.informations address > a{
+    color: #F5F5F5;
 }
 
 
