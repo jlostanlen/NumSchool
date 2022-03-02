@@ -1,0 +1,267 @@
+
+/*************************
+BODY
+*************************/
+@font-face {
+    font-family: 'source_sans_pro';
+    src: url('sourcesanspro-black-webfont.woff2') format('woff2'),
+         url('sourcesanspro-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+    min-height: 100vh; 
+}
+
+main{
+    height: 100vh;
+    width: 100%;
+}
+body{
+    /* margin: 0;
+    width: 100%;
+    height: 100%; */
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    background-color: #433f75;
+}
+a{
+    color: #020509;
+}
+
+
+/* Aspect des liens de la page */
+a:link{
+    text-decoration: none !important;
+    color: #020509;
+}
+.nav-link{
+    color: #F5F5F5;
+}
+
+
+
+
+
+
+
+/*************************
+MENU DE NAVIGATION
+*************************/
+nav{
+    background-color: #433f75;
+}
+nav ul{
+    width: 100%;
+    height: 5em;
+}
+nav li{
+    font-weight: bolder;
+    text-align: center;
+    color: #f5f5f5;
+    background-color: #433f75;
+    width: 100%;
+}
+nav a{
+    position: relative;
+    height: 100%;
+}
+
+
+/* Aspect du lien de chaque bloc du nav */
+nav a:link{
+    color: #f5f5f5;
+    text-decoration: none;
+}
+nav p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* couleur des liens du menu de nav lors du survol de la souris */
+.accueil:hover{
+    background-color: #5271FF;
+    color: #020509;
+}
+.maternelle:hover{
+    color: #020509;
+    background-color: #FFCE38;
+}
+  .cp:hover{
+    color: #f5f5f5;
+    background-color: #5271FF;
+}
+  .ce1:hover{
+    color: #020509;
+    background-color: #FF0038;
+}
+  .ce2:hover{
+    color: #020509;
+    background-color: #FFCE38;
+}
+  .cm1:hover{
+    color: #f5f5f5;
+    background-color: #FF0038;
+}
+  .cm2:hover{
+    color: #020509;
+    background-color: #FFCE38;
+}
+  .a_propos:hover{
+    color: #f5f5f5;
+    background-color: #5271FF;
+}
+
+
+
+
+
+
+/* couleur des blocs de la page d'accueil et des pages des différentes catégories lors du survol de la souris*/
+.bloc1:hover{
+    color: #020509;
+    background-color: #FFCE38;
+}
+.bloc2:hover{
+    color: #f5f5f5;
+    background-color: #FF0038;
+}
+.bloc3:hover{
+    color: #f5f5f5;
+    background-color: #5271FF;
+}
+.bloc4:hover{
+    color: #f5f5f5;
+    background-color: #FF0038;
+}
+.bloc5:hover{
+    color: #020509;
+    background-color: #FFCE38;
+}
+.bloc6:hover{
+    color: #020509;
+    background-color: #5271FF;
+}
+.niveaux img{
+    width: 25%;
+}
+
+
+/* Aspect des blocs pour page d'accueil et pour les pages de chaque catégorie */
+.niveaux ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.niveaux a{
+    box-shadow: -10px 10px #353264;
+    text-align: center;
+    background-color: white;
+    width: 20%;
+    height: 20em;
+    margin: 5em;
+    justify-content: center;
+    padding: 3em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************************
+À PROPOS
+*************************/
+.informations{
+    /* width: 100%; */
+    /* height: 100vh; */
+    color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+}
+.informations > ul{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+.informations li{
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    margin: 5em;
+    text-align: center;
+    justify-content: center;
+}
+.pq_site{
+    /* padding: 3em; */
+    width: 40%;
+    color: #020509;
+    background-color: #FFCE38;
+}
+.auteur{
+    /* padding: 3em; */
+    width: 40%;
+    background-color: #5271FF;
+}
+.informations address > a{
+    color: #F5F5F5;
+}
+
+
+
+
+
+/*************************
+FOOTER
+*************************/
+footer{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    margin-top: 10em;
+    width: 100%;
+}
+footer > div{
+    text-align: center;
+    background-color: #f5f5f5;
+    width: 100%;
+    padding: 1em;
+}
+
+
+
+
+
+/*************************
+LOGO
+*************************/
+.logo{
+    color: #020509;
+    text-align: center;
+    background-color: #FFCE38;
+    width: 60%;
+    border-radius:3em;
+}
+.logo:hover{
+    color: #020509;
+}
