@@ -14,6 +14,7 @@ body{
     font-size: 1em;
     letter-spacing: 0.1em;
     background-color: #433f75;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 a{
     color: #020509;
@@ -42,19 +43,27 @@ nav{
     background-color: #433f75;
 }
 nav ul{
+    display: flex;
+    list-style-type: none;
     width: 100%;
     height: 5em;
+    align-items: center;
 }
 nav li{
+    display: flex;
     font-weight: bolder;
-    text-align: center;
+    align-items: center;
     color: #f5f5f5;
     background-color: #433f75;
+    height: 100%;
     width: 100%;
+    /* margin: 1em; */
 }
 nav a{
-    position: relative;
-    height: 100%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-radius: 5px;
 }
 
 
@@ -63,12 +72,12 @@ nav a:link{
     color: #f5f5f5;
     text-decoration: none;
 }
-nav p{
+/* nav p{ 
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
+}  */
 
 
 /* couleur des liens du menu de nav lors du survol de la souris */
@@ -156,6 +165,7 @@ nav p{
     margin: 5em;
     justify-content: center;
     padding: 3em;
+    border-radius: 5px;
 }
 
 
@@ -219,12 +229,11 @@ nav p{
 
 
 
-
 /*************************
 FOOTER
 *************************/
 footer{
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
     display: flex;
     margin-top: 10em;
@@ -246,11 +255,11 @@ LOGO
 *************************/
 .logo{
     color: #020509;
-    text-align: center;
     background-color: #FFCE38;
-    width: 60%;
+    width: 50% !important;
     border-radius:3em;
 }
+.logo
 .logo:hover{
     color: #020509;
 }
