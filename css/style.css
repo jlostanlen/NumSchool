@@ -8,15 +8,21 @@ BODY
     font-weight: normal;
     font-style: normal;
 }
-
+html{
+    height: 100%;
+}
 body{
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
     font-size: 1em;
     letter-spacing: 0.1em;
     background-color: #433f75;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 a{
-    color: #020509;
+    color: #F5F5F5;
 }
 
 
@@ -85,7 +91,7 @@ nav a:link{
 /* couleur des liens du menu de nav lors du survol de la souris */
 .accueil:hover{
     background-color: #5271FF;
-    color: #020509;
+    color: #F5F5F5;
 }
 .maternelle:hover{
     color: #020509;
@@ -96,7 +102,7 @@ nav a:link{
     background-color: #5271FF;
 }
   .ce1:hover{
-    color: #020509;
+    color: #F5F5F5;
     background-color: #FF0038;
 }
   .ce2:hover{
@@ -160,6 +166,7 @@ nav a:link{
     margin-top: 200px;
 }
 .niveaux a{
+    color: #020509;
     box-shadow: -10px 10px #353264;
     text-align: center;
     background-color: white;
@@ -194,8 +201,6 @@ nav a:link{
 À PROPOS
 *************************/
 .informations{
-    /* width: 100%; */
-    /* height: 100 ; */
     color: #F5F5F5;
     display: flex;
     justify-content: center;
@@ -205,6 +210,7 @@ nav a:link{
     display: flex;
     align-items: center;
     list-style-type: none;
+    margin-top: 200px;
 }
 .informations li{
     padding: 3em;
@@ -213,15 +219,14 @@ nav a:link{
     margin: 5em;
     text-align: center;
     justify-content: center;
+    border-radius: 5px;
 }
 .pq_site{
-    /* padding: 3em; */
     width: 40%;
     color: #020509;
     background-color: #FFCE38;
 }
 .auteur{
-    /* padding: 3em; */
     width: 40%;
     background-color: #5271FF;
 }
@@ -236,6 +241,9 @@ nav a:link{
 FOOTER
 *************************/
 footer{
+    color: #020509;
+    position: absolute;
+    bottom: 0;
     display: flex;
     margin-top: 10em;
     width: 100%;
